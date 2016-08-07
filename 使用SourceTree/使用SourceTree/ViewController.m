@@ -19,6 +19,7 @@
 
    
     self.view.backgroundColor = [UIColor orangeColor];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
 
 }
 
