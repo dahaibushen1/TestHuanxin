@@ -22,6 +22,8 @@
     UIView *view  = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     view.backgroundColor = [UIColor purpleColor];
     [self.view addSubview:view];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:@"wuhan" forState:UIControlStateNormal];
 }
 
 
